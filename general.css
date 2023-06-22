@@ -1,0 +1,97 @@
+.play {
+  font-size: 50px;
+    font-weight: 900;
+    color: rgb(39, 39, 146);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.click {
+  font-size: 30px;
+    font-weight: 400;
+    color: rgb(236, 66, 66);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4px;
+    
+  }
+
+.hov {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: ;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 40px;
+}
+
+.rock {
+  background-color: rgb(21, 71, 112);
+  color: white;
+  font-size: 40px;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 5px 5px gray;
+}
+
+.rock:hover {
+  background-color: rgb(120, 120, 221);
+}
+
+.paper {
+  background-color: rgb(21, 71, 112);
+  color: white;
+  font-size: 40px;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 5px 5px gray;
+}
+.paper:hover {
+  background-color: rgb(120, 120, 221);
+}
+.scissors {
+  background-color: rgb(21, 71, 112);
+  color: white;
+  font-size: 40px;
+  padding: 30px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 5px 5px gray;
+}
+.scissors:hover {
+  background-color: rgb(120, 120, 221);
+}
+
+@media (max-width: 1000px) {
+  .hov {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 480px) {
+  .hov {
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.Go {
+  background-color: rgb(21, 71, 112);
+  color: white;
+  padding: 30px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(251, 255, 251);
+}
